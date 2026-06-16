@@ -1,5 +1,4 @@
 from tkinter import *
-from tkinter import PhotoImage
 import random
 global count
 count=1
