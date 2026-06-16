@@ -58,11 +58,6 @@ def onplay():
 root=Tk()
 root.title("The Guessing Game")
 root.geometry("950x700")
-image_path=r"C:\Users\user\Downloads\Gemini_Generated_Image_d6hu3od6hu3od6hu.png"
-bg_photo=PhotoImage(file=image_path)
-image1=bg_photo.subsample(2,2)
-bg_image=Label(root,image=image1)
-bg_image.place(relheight=1,relwidth=1)
 header=Label(root,text="The Number Guessing Game",font=("Georgia",30),bg="Black",fg="Red")
 header.pack(pady=50)
 play=Button(root,text="Click to Play!",font=("Georgia",27),fg="Pink",bg="Dark Blue",command=onplay)
